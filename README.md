@@ -13,8 +13,6 @@ A tool for filling out the questionnaires of the National Yang-Ming Chiao-Tung U
 
 [Step 3] Paste the code from the index.js and click enter to run the code.
 
-P.S. If there are some questionnaires that cannot be filled out after running the code, run them until all the questionnaires are filled out.
-
 ## Disclaimer
 This tool is provided for educational and personal use only. By using this script, you acknowledge and agree to the following:
 
