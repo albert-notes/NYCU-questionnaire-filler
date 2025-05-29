@@ -35,7 +35,7 @@ async function fill_form(){
             while(!document.querySelector('button[data-v-7fe871a7]')){
                 await sleep(100);
             }
-            let send_button = document.querySelector('button[data-v-7fe871a7]');
+            let send_button = Array.from(document.querySelectorAll('button')).find(btn => btn.innerText.includes('Send'));
             console.log(send_button);
             send_button.click();
             await sleep(5000);
